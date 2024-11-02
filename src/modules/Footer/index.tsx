@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { Section } from "./Section";
+import { Section } from "../common/components";
 
 export const Footer: FC = () => {
   return (

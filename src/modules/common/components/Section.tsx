@@ -2,7 +2,7 @@ import { FC, PropsWithChildren } from "react";
 
 export const Section: FC<PropsWithChildren> = ({ children }) => {
   return (
-    <div className={`relative py-16`}>
+    <div className={`relative py-16 px-10`}>
       {children}
       <div className="absolute top-0 left-7 w-[1.5px] h-full bg-slate-200 pointer-events-none" />
       <div className="absolute top-0 right-7 w-[1.5px] h-full bg-slate-200 pointer-events-none" />

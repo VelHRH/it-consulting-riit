@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FC } from "react";
-import { Routes } from "../routes";
+import { Routes } from "../common/routes";
 
 export const Header: FC = () => {
   return (
@@ -12,7 +12,7 @@ export const Header: FC = () => {
           <Link
             key={route.url}
             href={route.url}
-            className="hover:text-green-500 transition"
+            className="hover:text-green-500 transition font-code"
           >
             {route.name}
           </Link>
